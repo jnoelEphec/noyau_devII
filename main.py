@@ -53,16 +53,6 @@ class Main(App):
         return sm
 
 
-class Personne:
-    def __init__(self, nom):
-        self.nom = nom
-        
-        
-class Etudiant(Personne):
-    def __init__(self, nom):
-        super(Etudiant, self).__init__(nom)
-
-
 if __name__ == '__main__':
     print("Bienvenue sur notre projet commun !")
 
